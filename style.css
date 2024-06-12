@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(173, 163, 163);
+}
+.wrapper {
+    display: flex;
+    max-width: 300px;
+    border-radius: 15px;
+    border: 1px;
+    background-color: rgb(75, 68, 116);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 0px 0px 8px 5px rgba(0,0,0,0.49); 
+    box-shadow: 2px 5px 16px 0px #0B325E, 0px 0px 8px 5px rgba(0,0,0,0.49);
+    margin: 10vh;
+    gap: 35px;
+};
+
+#context {
+    font-size: large;
+    color: beige;
+}
+
+button {
+background-color: black;
+color: azure;
+border-radius: 20px;
+border: none;
+-webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 21px 0px #FFFFFF; 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 21px 0px #FFFFFF;
+padding: 10px 20px;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(253,255,255,0);
+}
+
+
+#context {
+    font-size: 50px;
+    margin: 0;
+    color: #FFFFFF;
+    background: rgb(75, 68, 116);
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
